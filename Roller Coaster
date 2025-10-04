@@ -1,0 +1,11 @@
+# Roller Coaster
+height = int(input("Enter the height: "))
+credits = int(input("Enter the amount of credits: "))
+if height >= 137 and credits >= 10:
+  print("Enjoy the ride!")
+elif height >= 137 and credits < 10:
+  print("You don't have enough credits")
+elif height < 137 and credits >= 10:
+  print("You are not tall enough.")
+else:
+  print("You don't have enough credits and not tall enough")
