@@ -1,0 +1,5 @@
+# BMI calculator
+mass = 37
+height = 164
+bmi = mass / (height ** 2)
+print(bmi)
