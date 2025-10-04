@@ -1,0 +1,6 @@
+#printing initials
+print(" A       G ")
+print("A  A    G")
+print("AAAAA   G    GGGG")
+print("A    A   G     G")
+print("A     A    GGG")
