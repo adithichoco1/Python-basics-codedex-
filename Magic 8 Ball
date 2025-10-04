@@ -1,0 +1,22 @@
+# Magic 8 Ball
+import random
+question = input("Question: ")
+answer = random.randint(1, 9)
+if answer == 9:
+  print("Yes - definitely.")
+elif answer == 8:
+  print("It is decidedly so.")
+elif answer == 7:
+  print("Without a doubt.")
+elif answer == 6:
+  print("Reply hazy, try again.")
+elif answer == 5:
+  print("Ask again later.")
+elif answer == 4:
+  print("Better not tell you now.")
+elif answer == 3:
+  print("My sources say no.")
+elif answer == 2:
+  print("Outlook not so good.")
+elif answer == 1:
+  print("Very doubtful.")
