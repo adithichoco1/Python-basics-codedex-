@@ -1,0 +1,8 @@
+# pH value 
+pH = float(input("Enter the pH value: "))
+if pH > 7:
+  print("The liquid is basic")
+elif pH == 7:
+  print("The liquid is neutral")
+elif pH < 7:
+  print("The liquid is acidic")
