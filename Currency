@@ -1,0 +1,6 @@
+# Currency Conversion 💖
+CO = float(input("What do you have left in pesos? "))
+PE = float(input("What do you have left in soles? "))
+BR = float(input("What do you have in Brazillian reais? "))
+total = (CO * 0.00026) + (PE * 0.29) + (BR * 0.19)
+print(total)
